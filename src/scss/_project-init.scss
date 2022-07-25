@@ -13,7 +13,7 @@ body {
     var(--error);
   color: var(--white);
 
-  @media screen and (max-width: 759px) {
+  @media screen and (max-width: 768px) {
     background: url("../images/bg-intro-mobile.png") no-repeat center top /
         cover,
       var(--error);

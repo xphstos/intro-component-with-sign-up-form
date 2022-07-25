@@ -5,5 +5,5 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Links
 
-- Solution URL: [Intro component with sign up form](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Intro component with sign up form](https://github.com/xphstos/intro-component-with-sign-up-form)
+- Live Site URL: [6b5d0131b644f593fb3631e3a9a9f7751a0cfc4f.surge.sh](https://6b5d0131b644f593fb3631e3a9a9f7751a0cfc4f.surge.sh)
