@@ -1,0 +1,46 @@
+@use "sass:color" as *;
+@use "../functions" as *;
+@use "../helpers" as *;
+
+.main {
+  @extend %container;
+  display: grid;
+  align-items: center;
+  place-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.5rem;
+  padding-block: 4rem;
+  min-height: 100%;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: fluid-rem(2rem, 3rem);
+    margin-bottom: 0.666em;
+  }
+
+  &__description {
+    opacity: 0.8;
+  }
+
+  &__content {
+    @media screen and (max-width: 768px) {
+      margin-top: 4rem;
+    }
+  }
+
+  &__promo {
+    background-color: v("accent");
+    font-weight: 400;
+    color: v("white");
+    text-align: center;
+    min-height: 4rem;
+    border-radius: 0.75rem;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 0.5rem 0 adjust(c("off-black"), $alpha: -0.8);
+    margin-bottom: 1.5rem;
+  }
+}

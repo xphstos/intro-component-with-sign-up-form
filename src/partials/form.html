@@ -1,0 +1,63 @@
+<form class="form {{ classname }}">
+  <label for="fname" class="form__label label">
+    <span class="label__text">First Name</span>
+    <input
+      type="text"
+      name="fname"
+      class="label__input input"
+      placeholder="First Name"
+    />
+    <small class="label__error"></small>
+    <icon src="./images/icon-error.svg" class="label__error-icon"></icon>
+  </label>
+  <label for="lname" class="form__label label">
+    <span class="label__text">Last Name</span>
+    <input
+      type="text"
+      name="lname"
+      class="label__input input"
+      placeholder="Last Name"
+    />
+    <small class="label__error"></small>
+    <icon src="./images/icon-error.svg" class="label__error-icon"></icon>
+  </label>
+  <label for="email" class="form__label label">
+    <span class="label__text">Email Address</span>
+    <input
+      type="text"
+      name="email"
+      class="label__input input"
+      placeholder="Email Address"
+    />
+    <small class="label__error"></small>
+    <icon src="./images/icon-error.svg" class="label__error-icon"></icon>
+  </label>
+  <label for="password" class="form__label label">
+    <span class="label__text">Password</span>
+    <input
+      type="password"
+      name="password"
+      class="label__input input"
+      placeholder="Password"
+    />
+    <small class="label__error"></small>
+    <icon src="./images/icon-error.svg" class="label__error-icon"></icon>
+  </label>
+  <button type="submit" class="btn btn--submit form__submit">
+    Claim your free trial
+  </button>
+  <p class="form__terms">
+    <small>
+      By clicking the button, you are agreeing to our
+      <a href="#0">Terms and Services</a>
+    </small>
+  </p>
+  <div class="form__message">
+    <img
+      src="./images/thank-you.gif"
+      alt="Thank you!"
+      class="form__thank-you"
+    />
+    <p>Thank you!</p>
+  </div>
+</form>
